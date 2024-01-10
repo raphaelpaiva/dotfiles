@@ -10,7 +10,7 @@ fi
 
 for file in ~/aliases.d/*.sh
 do
-  echo "Sourcing $GREEN$file$ENDCOLOR";
+#  echo "Sourcing $GREEN$file$ENDCOLOR";
   source $file
 done
 
