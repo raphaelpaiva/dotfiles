@@ -20,3 +20,7 @@ shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 ctrl + alt - q : yabai --stop-service
 ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
+
+# App shortcuts
+ctrl + cmd - t : open -a iTerm ~/
+ctrl + cmd - g : open -a 'Google Chrome' 'chrome://new-tab-page'
