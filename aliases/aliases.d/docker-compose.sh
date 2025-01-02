@@ -4,3 +4,7 @@ alias dcrestart='docker-compose restart'
 alias dcstop='docker-compose stop'
 alias dcstart='docker-compose start'
 alias dcps='docker-compose ps'
+
+dcreset() {
+  docker compose down $1 && docker compose up -d --build --force-recreate $1
+}
