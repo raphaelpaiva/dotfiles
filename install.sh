@@ -7,3 +7,6 @@ if [ $? -ne 0 ]
 then
   echo "source ~/.aliases.sh" >> $HOME/.`basename $SHELL`rc;
 fi
+
+source $HOME/.`basename $SHELL`rc
+
